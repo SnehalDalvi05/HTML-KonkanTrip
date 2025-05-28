@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Your Konkan Trip</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="booking.css">
+
+</head>
+<body>
+
+  <header>
+    <div class="logo">Konkan Trips</div>
+    <nav>
+      <a href="goflyin.html">Home</a>
+      <a href="aboutus.html">About</a>
+      <!--<a href="#destinations">Destinations</a>-->
+      <a href="booking.html">Booking</a>
+      <a href="#profile">User Profile</a>
+    </nav>
+  </header>
+  
+  <div class="booking-heading">
+    <h1>Book Your Konkan Trip</h1>
+  </div>
+  
+
+  <div class="container">
+    <h1>Reserve Your 2D/1N Konkan Getaway</h1>
+
+    <div class="section">
+      <h3>Select Your Destination</h3>
+      <div class="radio-group">
+        <label><input type="radio" name="destination" checked> Ratnagiri</label>
+        <label><input type="radio" name="destination"> Alibaug</label>
+        <label><input type="radio" name="destination"> Tarkarli</label>
+        <label><input type="radio" name="destination"> Murud Janjira</label>
+        <label><input type="radio" name="destination"> Harihareshwar</label>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Select Package Type</h3>
+      <div class="radio-group">
+        <label><input type="radio" name="packageType" checked> Budget </label>
+        <label><input type="radio" name="packageType"> Deluxe </label>
+        <label><input type="radio" name="packageType"> Premium </label>
+      </div>
+    </div>
+
+    <form>
+      <div class="section">
+        <h3>Your Details</h3>
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <input type="tel" placeholder="Phone Number" required />
+        <input type="number" placeholder="Number of People" min="1" required />
+        <label>Trip Date:</label>
+        <input type="date" required />
+        <textarea placeholder="Special Requests (Optional)"></textarea>
+        <button type="submit">Confirm Booking</button>
+      </div>
+    </form>
+
+    <div class="highlights section">
+      <h3>What's Included?</h3>
+      <ul>
+        <li>1-night local stay with meals included</li>
+        <li>Authentic Konkani cuisine experience</li>
+        <li>Guided beach and fort tours</li>
+        <li>Bonfire + cultural evening</li>
+        <li>Pickup & drop from nearby city (Premium only)</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Go Flyin. All rights reserved.</p>
+  </footer>
+</body>
+</html>
